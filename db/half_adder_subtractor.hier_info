@@ -1,0 +1,12 @@
+|half_adder_subtractor
+a => sum_diff.IN1
+a => carry_borrow.IN1
+a => carry_borrow.IN0
+b => b_xor_mode.IN0
+b => carry_borrow.IN1
+mode => b_xor_mode.IN1
+mode => carry_borrow.IN1
+sum_diff <= sum_diff.DB_MAX_OUTPUT_PORT_TYPE
+carry_borrow <= carry_borrow.DB_MAX_OUTPUT_PORT_TYPE
+
+
